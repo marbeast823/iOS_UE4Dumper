@@ -12,12 +12,12 @@ public:
 
     std::string GetAppID() const override
     {
-        return "com.studiowildcard.wardrumstudios.ark";
+        return "com.vividgames.realboxing2";
     }
 
     MemoryFileInfo GetExecutableInfo() const override
     {
-        return KittyMemory::getMemoryFileInfo("ShooterGame");
+        return KittyMemory::getMemoryFileInfo("RealBoxing2");
     }
 
     bool IsUsingFNamePool() const override
